@@ -1,0 +1,14 @@
+.App {
+    background-color: rgb(234, 234, 234);
+    width: 100%;
+  }
+  
+  
+.app_body{
+    display: flex;
+    width: 100%;
+} 
+  
+
+  
+  

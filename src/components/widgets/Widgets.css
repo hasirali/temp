@@ -1,0 +1,33 @@
+.widgets {
+    flex: 0.33;
+    padding: 25px 10px;
+  }
+  
+  .widgets iframe {
+    border: none;
+    overflow: hidden;
+    display: block;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .widgets {
+      display: none;
+    }
+  
+    .widgets iframe {
+      width: 100%;
+      display: none;
+      height: 400px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .widgets iframe {
+      height: 300px;
+    }
+    .widgets {
+      display: none;
+    }
+  
+  }
+  
